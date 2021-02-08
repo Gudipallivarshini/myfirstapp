@@ -1,0 +1,68 @@
+				REACT JS
+1.Single page application
+2.tags are known as components
+3.Reactjs file structure:
+	.git
+	node_modules
+	public
+
+	src
+	.gitignore
+	package.json
+	pakage-lock.json
+	README.md
+
+4.we need to checkwhether node js available in our pc or not?
+5.if yes,
+	open cmd type node -v
+	npm node -v
+6.if no,
+	download node js from internet(url nodejs.org)
+7.how to create react application?
+        1.npm(node package manager) i/install create-react-app -g
+        2.create-react-app  appname
+        3.npx(node package runner) create-react-app appname
+				ADVANTAGES OF REACT JS
+1.BY USING REACT JS,Single page applications
+2.It compltely based on components
+3.React js uses  virtual DOM
+4.Code is written in jsx(javascript&xml) language
+5.We can use it anywhere
+
+
+DISADVANTAGES
+1.More space
+2.Extention js/jsx
+
+REACT  JS COMPONENTS DIVIDED INTO 2 TYPES:
+	1.Class  based components
+	2.Functional based components
+				before 16.3 version
+1.class based componments considered  as state components 
+2.Functional based components considered as stateless components
+  				after 16.3 version
+Functional based components are also considered as state components when the reactjs team works with 
+hooks components
+ if u want tosend data fromparent to child component we can use props
+it is immutable
+Virtualdom modifies only single component but real dom modifies total page
+*Import es7 snippet should be installed if we want snippets
+*RFC:React Functional based Components
+*RCC:React Class based Components
+				MY FIRST APP
+1.  cmd:myfirstapp>git init
+2.          npm install gh-pages --save -dev
+3.open package.json
+    a."homepage":"http://Gudipallivarshini.github.io/myfirstapp",
+       "scripts": {
+                             "predeploy":"npm run build",
+                             "deploy":"gh-pages -d build",
+	        }
+4.create repository in my github
+5.copy rep url and paste it by using
+	git remote add origin https://github.com/Gudipallivarshini/myfirstapp.git
+5.npm run build
+6.git add .
+7.git status
+8.git commit-m"this is my"
+9.git push origin master 
